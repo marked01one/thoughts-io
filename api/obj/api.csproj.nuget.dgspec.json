@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\api.csproj": {}
+    "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\api.csproj": {
+    "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\api.csproj",
-        "projectName": "api",
-        "projectPath": "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\api.csproj",
+        "projectUniqueName": "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Tran Minh Khoi\\.nuget\\packages\\",
         "outputPath": "C:\\VS_Code\\Projects\\web_development\\thoughts-io-static-site\\api\\obj\\",
         "projectStyle": "PackageReference",
@@ -47,6 +47,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
