@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title: string;
+
+  constructor() {
+    this.title = 'App'
+  }
+
+  onClickButton() {
+    this.title = 'App' ? 'Not App' : 'App';
+    console.log(this.title);
+  }
 }
